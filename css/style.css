@@ -1,0 +1,458 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans" , "Arial" , sans-serif;
+  background-color: #fff;
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #fff;
+  color: #222;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* SITE-HEADER */
+.site-header {
+  width: 100%;
+  position: fixed;
+  font-size: 15px;
+  background-color: #fff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header-list {
+  display: flex;
+  list-style: none;
+}
+
+.site-header-list-item {
+  margin-right: 32px;
+}
+
+.site-header-list-item-link {
+  text-decoration: none;
+  margin-left: 24px;
+  color: #000;
+}
+
+.site-header-list-item-link:hover {
+  color: dodgerblue;
+  text-decoration: underline;
+}
+
+.site-header-list-item-link:active {
+  color: darkviolet;
+}
+
+.site-header-list-last-item{
+  margin-right: 0;
+}
+
+.site-header-link {
+  background-color: #00BAFC;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 16px 8px 16px;
+  border-radius: 5px;
+}
+
+.site-header-link:hover {
+  background-color: gold;
+  color: #000;
+  text-decoration: underline;
+}
+
+.site-header-link:active {
+  background-color: lightgreen;
+  color: #000;
+  text-decoration: underline;
+}
+
+/* SITE-MAIN(HERO-SECTION) */
+
+.hero-section {
+  display: flex;
+  padding-top: 97px;
+  padding-bottom: 97px;
+  align-items: center;
+}
+
+.hero-content {
+  margin-right: 172px;
+}
+
+.hero-section-heading {
+  width: 470px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  margin-bottom: 16px;
+}
+
+.hero-section-desc {
+  width: 470px;
+  margin-bottom: 24px;
+}
+
+.hero-section-link {
+  background-color: #00BAFC;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  padding: 8px 16px 8px 16px;
+  border-radius: 5px;
+}
+
+.hero-section-link:hover {
+  background-color: gold;
+  color: #000;
+  text-decoration: underline;
+}
+
+.hero-section-link:active {
+  background-color: lightgreen;
+  color: black;
+  text-decoration: underline;
+}
+
+/* XIZMATLAR */
+.service-section-heading {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.service-section-desc {
+  width: 719px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-section-list {
+  display: flex;
+  text-align: center;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 24px;
+}
+
+.service-section-list-item {
+  width: 280px;
+  margin-right: 70px;
+  margin-bottom: 48px;
+}
+
+.service-section-list-last-item {
+  margin-left: 150px;
+}
+
+.service-section-list-item-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.service-section-content {
+  background-color: #fff;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.service-section-list-heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  margin-bottom: 16px;
+}
+
+.service-section-list-desc {
+  font-weight: 400;
+}
+
+.service-section-first-link {
+  background-color: #00BAFC;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 16px;
+  margin-left: 311px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 5px;
+}
+
+.service-section-first-link:hover {
+  background-color: gold;
+  color: #000;
+  text-decoration: underline;
+}
+
+.service-section-first-link:active {
+  background-color: lightgreen;
+  color: black;
+  text-decoration: underline;
+}
+
+.service-section-second-link {
+  color: #00BAFC;
+}
+
+.service-section-second-link:hover {
+  color: darkorange;
+  text-decoration: underline;
+}
+
+.service-section-second-link:active {
+  color: darkviolet;
+  text-decoration: underline;
+}
+
+/* BIZ QANDAY ISHLAYMIZ? */
+.how-we-work-section-heading{
+  margin-top: 120px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+}
+
+.how-we-work-section-desc {
+  width: 719px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.how-we-work-section-list {
+  list-style: none;
+}
+
+.how-we-work-section-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.how-we-work-section-list-item-content {
+  margin-left: 64px;
+}
+
+.how-we-work-section-list-item-heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.how-we-work-section-link {
+  background-color: #00BAFC;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 16px;
+  margin-left: 415px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 5px;
+}
+
+.how-we-work-section-link:hover {
+  background-color: gold;
+  color: #000;
+  text-decoration: underline;
+}
+
+.how-we-work-section-link:active {
+  background-color: lightgreen;
+  color: black;
+  text-decoration: underline;
+}
+
+/*  */
+.last-section {
+  background-color: #00BAFC;
+  color: #fff;
+  margin-top: 55px;
+  padding-top: 56px;
+  padding-bottom: 64px;
+}
+
+.last-section-content {
+  text-align: center;
+}
+
+.last-section-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.last-section-desc {
+  width: 719px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-container {
+  width: 348px;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 24px;
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 16px;
+}
+
+.form-text {
+  padding: 16px;
+  background: #F3F3F3;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.form-tel {
+  padding: 16px;
+  background: #F3F3F3;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.form-select {
+  padding: 16px;
+  background: #F3F3F3;
+  border-radius: 5px;
+  margin-bottom: 16px;
+}
+
+.form-button{
+  background-color: #F3F3F3;
+  color: #222;
+}
+
+.form-button:hover {
+  background-color: #ff3333;
+  color: #fff;
+}
+
+.form-button:active {
+  background-color: green;
+  color: #fff;
+}
+
+.last-section-link {
+  background-color: #00BAFC;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 75px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 5px;
+}
+
+.last-section-link:hover {
+  background-color: gold;
+  color: #000;
+  text-decoration: underline;
+}
+
+.last-section-link:active {
+  background-color: lightgreen;
+  color: black;
+  text-decoration: underline;
+}
+
+/* SITE-FOOTER */
+.site-footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.site-footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-footer-heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  margin-bottom: 8px;
+}
+
+.site-footer-desc {
+  width: 320px;
+}
+
+.site-footer-list {
+  list-style: none;
+}
+
+.site-footer-list-item {
+  margin-right: 100px;
+}
+
+.site-footer-list-item-link {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+
+.site-footer-list-item-link:hover {
+  color: tomato;
+  text-decoration: underline;
+}
+
+.site-footer-list-item-link:active {
+  color: darkgray;
+}
+
+.social-network {
+  margin-left: 8px;
+}
